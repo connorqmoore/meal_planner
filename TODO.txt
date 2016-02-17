@@ -1,4 +1,4 @@
 Collect data
-	-> Make survey with Myles
-	-> Get people to fill out
-	-> Make list of meals (look through previous Menu emails)
+	-> Get people to fill out survey
+	-> Start framework of how to weight things
+	-> Get calorie data for meals
