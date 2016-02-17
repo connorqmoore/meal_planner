@@ -1,0 +1,70 @@
+{
+    "Breakfast": [
+        "Lunch",
+        "18"
+    ],
+    "Burgers and Hot Dogs": [
+        "Lunch",
+        "18"
+    ],
+    "Chicken Salad": [
+        "Lunch",
+        "9"
+    ],
+    "Cold Cuts": [
+        "Lunch",
+        "8"
+    ],
+    "Gyro": [
+        "Lunch",
+        "11"
+    ],
+    "Ham & Cheese,  Tuna Melts, Grilled Cheese": [
+        "Lunch",
+        "10"
+    ],
+    "Hawaiian Sandwiches": [
+        "Lunch",
+        "0"
+    ],
+    "Meatball Sub": [
+        "Lunch",
+        "6"
+    ],
+    "Mystery Meat Sandwiches": [
+        "Lunch",
+        "1"
+    ],
+    "Philly Cheesesteak": [
+        "Lunch",
+        "10"
+    ],
+    "Pierogies and Brats": [
+        "Lunch",
+        "1"
+    ],
+    "Pizza": [
+        "Lunch",
+        "11"
+    ],
+    "Primanti": [
+        "Lunch",
+        "1"
+    ],
+    "Pulled Pork ": [
+        "Lunch",
+        "3"
+    ],
+    "Reubans": [
+        "Lunch",
+        "12"
+    ],
+    "Tuna Casserole": [
+        "Lunch",
+        "1"
+    ],
+    "Wings": [
+        "Lunch",
+        "12"
+    ]
+}
