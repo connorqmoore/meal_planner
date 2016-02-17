@@ -20,12 +20,13 @@ with open('items/menu_items.json', 'w') as meal_json:
 	json.dump(meal_dict, meal_json, sort_keys = True, indent = 4)
 
 # write lunch meals
-with open('items/lunch_items.json', 'w') as meal_json:
+with open('items/lunch_items.csv', 'w') as meal_json:
 	lunch_dict = { item: meal_dict[item] for item in meal_dict.keys() if meal_dict[item][0] == "Lunch"}
-	json.dump(lunch_dict, meal_json, sort_keys = True, indent = 4)
-
+	writer_obj = csv.writer(meal_json, delimiter='\n')
+	writer_obj.writerow(lunch_dict.keys())
 
 # write dinner meals
-with open('items/dinner_items.json', 'w') as meal_json:
+with open('items/dinner_items.csv', 'w') as meal_json:
 	dinner_dict = { item: meal_dict[item] for item in meal_dict.keys() if meal_dict[item][0] == "Dinner"}
-	json.dump(dinner_dict, meal_json, sort_keys = True, indent = 4)
+	writer_obj = csv.writer(meal_json, delimiter='\n')
+	writer_obj.writerow(dinner_dict.keys())
